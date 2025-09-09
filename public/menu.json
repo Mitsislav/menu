@@ -1,0 +1,75 @@
+{
+  "restaurant": { "el": "Το Καφέ Μας", "en": "Our Café" },
+  "currency": "EUR",
+  "sections": [
+    {
+      "id": "coffee",
+      "name": { "el": "Ζεστοί & Παγωμένοι Καφέδες", "en": "Hot & Iced Coffees" },
+      "items": [
+        { "id": "espresso", "name": { "el": "Εσπρέσο", "en": "Espresso" }, "desc": { "el": "Μονός ζεστός καφές από 100% Arabica φίλτρου. Ιδανικός για μια γρήγορη δόση ενέργειας.", "en": "A single hot coffee shot made from 100% Arabica filter. Perfect for a quick energy boost." }, "price": 2.5 },
+        { "id": "double-espresso", "name": { "el": "Διπλό Εσπρέσο", "en": "Double Espresso" }, "desc": { "el": "Διπλή δόση ζεστού καφέ για τους πιο απαιτητικούς. Σε ξυπνάει για τα καλά.", "en": "A double shot of hot coffee for the more demanding. It awakes you for good." }, "price": 3.8 },
+        { "id": "freddo-espresso", "name": { "el": "Freddo Espresso", "en": "Freddo Espresso" }, "desc": { "el": "Παγωμένος εσπρέσο, χτυπημένος με παγάκια για μια δροσερή εμπειρία.", "en": "Iced espresso, shaken with ice cubes for a refreshing experience." }, "price": 3.5 },
+        { "id": "cappuccino", "name": { "el": "Καπουτσίνο", "en": "Cappuccino" }, "desc": { "el": "Κλασικός εσπρέσο με αφρώδες γάλα και σκόνη κακάο. Σερβίρεται ζεστό.", "en": "Classic espresso with frothy milk and cocoa powder. Served hot." }, "price": 3.8 },
+        { "id": "freddo-cappuccino", "name": { "el": "Freddo Cappuccino", "en": "Freddo Cappuccino" }, "desc": { "el": "Ο αγαπημένος παγωμένος καφές. Εσπρέσο, κρύο αφρώδες γάλα και παγάκια.", "en": "The beloved iced coffee. Espresso, cold frothy milk, and ice cubes." }, "price": 4.2 },
+        { "id": "frappe", "name": { "el": "Φραπέ", "en": "Frappe" }, "desc": { "el": "Ο παραδοσιακός Έλληνας καφές. Στιγμιαίος καφές, παγάκια, λίγο γάλα και ζάχαρη κατά προτίμηση.", "en": "The traditional Greek coffee. Instant coffee, ice cubes, a little milk, and sugar to preference." }, "price": 3.2 }
+      ]
+    },
+    {
+      "id": "breakfast",
+      "name": { "el": "Πρωινό", "en": "Breakfast" },
+      "items": [
+        { "id": "toast", "name": { "el": "Τοστ", "en": "Toast" }, "desc": { "el": "Φρεσκοψημένο τοστ με ζαμπόν, τυρί και μουστάρδα. Συνοδεύεται από λίγη μαϊντανό.", "en": "Freshly grilled toast with ham, cheese, and mustard. Garnished with a little parsley." }, "price": 5.0 },
+        { "id": "pancakes", "name": { "el": "Πανκέικες", "en": "Pancakes" }, "desc": { "el": "Τρεις φουσκωτές πανκέικες σερβιρισμένες με σιρόπι σφενδάμου, φρέσκα μούρα και τρίμμενη φουντούκια.", "en": "Three fluffy pancakes served with maple syrup, fresh berries, and crushed hazelnuts." }, "price": 6.8 },
+        { "id": "yogurt", "name": { "el": "Γιαούρτι με Μέλι & Γκρανόλα", "en": "Yogurt with Honey & Granola" }, "desc": { "el": "Κρήτικο γιαούρτι, βιολογικό μέλι, σπιτική γκρανόλα και φρέσκα φρούτα της εποχής.", "en": "Cretan yogurt, organic honey, homemade granola, and fresh seasonal fruits." }, "price": 6.0 }
+      ]
+    },
+    {
+      "id": "burgers",
+      "name": { "el": "Burgers", "en": "Burgers" },
+      "items": [
+        { "id": "classic-burger", "name": { "el": "Classic Beef Burger", "en": "Classic Beef Burger" }, "desc": { "el": "Χειροποίητο μπιφτέκι 200g από αγνό βοδινό, τυρί cheddar, μαρούλι, ντομάτα, κρεμμύδι και σπέσιαλ σως. Σερβίρεται με πατάτες.", "en": "200g handmade pure beef patty, cheddar cheese, lettuce, tomato, onion, and special sauce. Served with fries." }, "price": 9.5 },
+        { "id": "chicken-burger", "name": { "el": "Crispy Chicken Burger", "en": "Crispy Chicken Burger" }, "desc": { "el": "Κριτσαρό φιλέτο κοτόπουλου, μπέικον, μαρούλι, ντομάτα και μείγμα μουστάρδας-μέλιου. Σερβίρεται με πατάτες.", "en": "Crispy chicken fillet, bacon, lettuce, tomato, and a honey-mustard mix. Served with fries." }, "price": 8.8 },
+        { "id": "veggie-burger", "name": { "el": "Veggie Burger", "en": "Veggie Burger" }, "desc": { "el": "Μπιφτέκι από μαύρα φασόλια, κινόα και γλυκοπατάτα, με αβοκάντο, ντομάτα, κρεμμύδι και σως τζατζίκι.", "en": "Patty made from black beans, quinoa, and sweet potato, with avocado, tomato, onion, and tzatziki sauce." }, "price": 8.5 }
+      ]
+    },
+    {
+      "id": "pizza",
+      "name": { "el": "Πίτσες", "en": "Pizzas" },
+      "items": [
+        { "id": "margherita", "name": { "el": "Margherita", "en": "Margherita" }, "desc": { "el": "Σπιτική ζύμη, ντοματάκι San Marzano, μοτσαρέλα και φρέσκο βασιλικό.", "en": "Homemade dough, San Marzano tomato, mozzarella, and fresh basil." }, "price": 8.0 },
+        { "id": "pepperoni", "name": { "el": "Pepperoni", "en": "Pepperoni" }, "desc": { "el": "Σπιτική ζύμη, ντοματάκι, μοτσαρέλα και πικάντικο pepperoni.", "en": "Homemade dough, tomato, mozzarella, and spicy pepperoni." }, "price": 9.5 },
+        { "id": "special", "name": { "el": "Σπέσιαλ", "en": "Special" }, "desc": { "el": "Σπιτική ζύμη, ντοματάκι, μοτσαρέλα, ζαμπόν, μαρινάρια μανιτάρια, ελιές και πιπεριές.", "en": "Homemade dough, tomato, mozzarella, ham, marinated mushrooms, olives, and peppers." }, "price": 10.5 },
+        { "id": "greek", "name": { "el": "Ελληνική", "en": "Greek Pizza" }, "desc": { "el": "Σπιτική ζύμη, ντοματάκι, μοτσαρέλα, φέτα, ελιές, πιπεριές, κρεμμύδι και ρίγανη.", "en": "Homemade dough, tomato, mozzarella, feta cheese, olives, peppers, onion, and oregano." }, "price": 10.0 }
+      ]
+    },
+    {
+      "id": "main-food",
+      "name": { "el": "Κύρια Πιάτα", "en": "Main Courses" },
+      "items": [
+        { "id": "club", "name": { "el": "Club Sandwich", "en": "Club Sandwich" }, "desc": { "el": "Τρία στρώματα ψωμιού toast με γαλοπούλα, μπέικον, μαρούλι, ντομάτα, αυγό και μάιονεζα. Συνοδεύεται από πατάτες.", "en": "Three layers of toast bread with turkey, bacon, lettuce, tomato, egg, and mayonnaise. Served with fries." }, "price": 7.5 },
+        { "id": "caesar", "name": { "el": "Σαλάτα Caesar", "en": "Caesar Salad" }, "desc": { "el": "Φρέσκο μαρούλι, παράδες, τραγανά κρουτόν, τρίμμενη παρμεζάνα και σπιτική σως Caesar.", "en": "Fresh romaine lettuce, croutons, grated parmesan, and homemade Caesar dressing." }, "price": 8.0 },
+        { "id": "pasta-bolognese", "name": { "el": "Μακαρόνια Μπολονέζ", "en": "Spaghetti Bolognese" }, "desc": { "el": "Σπαγγέτι σαντάλ με πλούσιο κιμά βοδινό σε σάλτσα ντομάτας, σερβιρισμένα με τρίμμενη παρμεζάνα.", "en": "Al dente spaghetti with a rich beef ragu in tomato sauce, served with grated parmesan." }, "price": 9.8 }
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": { "el": "Αναψυκτικά & Ποτά", "en": "Refreshments & Drinks" },
+      "items": [
+        { "id": "water", "name": { "el": "Νερό (500ml)", "en": "Water (500ml)" }, "desc": { "el": "Ενιδάτωσε τον εαυτό σου.", "en": "Hydrate yourself." },"price": 0.8 },
+        { "id": "coke", "name": { "el": "Αναψυκτικό (330ml)", "en": "Soft Drink (330ml)" }, "desc": { "el": "Coca-Cola, Fanta, Sprite.", "en": "Coca-Cola, Fanta, Sprite." }, "price": 2.5 },
+        { "id": "fresh-juice", "name": { "el": "Φρεσκος Χυμός", "en": "Fresh Juice" }, "desc": { "el": "Φυσικός χυμός από πορτοκάλι, μήλο ή καρότο.", "en": "Natural orange, apple, or carrot juice." }, "price": 4.5 },
+        { "id": "beer", "name": { "el": "Μπύρα (500ml)", "en": "Beer (500ml)" }, "desc": { "el": "Ελληνικές και ξένες μάρκες.", "en": "Greek and imported brands." }, "price": 5.0 },
+        { "id": "wine", "name": { "el": "Κρασί ποτήρι", "en": "Wine (glass)" }, "desc": { "el": "Λευκό, ερυθρό ή ροζέ. Τοπικές και ξένες ποικιλίες.", "en": "White, red, or rosé. Local and imported varieties." }, "price": 5.5 }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": { "el": "Επιδόρπια", "en": "Desserts" },
+      "items": [
+        { "id": "chocolate-cake", "name": { "el": "Σοκολατόπιτα", "en": "Chocolate Cake" }, "desc": { "el": "Πλούσια και υγρή σοκολατόπιτα με κρέμα γανάχης. Ιδανικό για τους γλυκατζίδες.", "en": "Rich and moist chocolate cake with ganache cream. Perfect for sugar-tooth." }, "price": 5.5 },
+        { "id": "cheesecake", "name": { "el": "Cheesecake", "en": "Cheesecake" }, "desc": { "el": "Σπιτικό cheesecake με μπισκοτάδα και μαρμελάδα φρούτων του δασού.", "en": "Homemade cheesecake with a biscuit base and forest fruit jam." }, "price": 6.0 },
+        { "id": "tiramisu", "name": { "el": "Τιραμισού", "en": "Tiramisu" }, "desc": { "el": "Κλασσικό ιταλικό επιδόρπιο με mascarpone, καφέ και κακάο.", "en": "Classic Italian dessert with mascarpone, coffee, and cocoa." }, "price": 6.2 }
+      ]
+    }
+  ]
+}
